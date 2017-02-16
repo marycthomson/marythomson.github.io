@@ -1,0 +1,151 @@
+html, body, h1, h2, h3, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+	}
+
+body {
+	margin: 1.5%;
+	font-family: "Raleway";
+	/* font-family: Trebuchet, Helvetica Neue, Helvetica, sans-serif; */
+	font-style: normal;
+	font-variant: normal;
+	}
+	
+header {
+	height: 100px;
+	width: 80%;
+	color: #D91E18;
+	display: inline-block;
+
+	}
+.headerLeft {
+	float: left;
+	text-align: left;
+	vertical-align: text-bottom;
+	}
+.headerLeft img {
+	float: left;
+	}
+
+.headerRight {
+	float: right;
+	text-align: right;
+	vertical-align: text-bottom;
+	}
+.headerRight img {	
+	float: right;
+}
+h1 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 22px;
+	color: #D91E18;	
+}
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #D91E18;	
+}
+p {
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 20px;
+	color: #404040;
+}
+nav {
+    text-align: center;
+    background-color: #D91E18;
+    width: 100%;
+    height: 40px;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0 auto;
+} 
+
+nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+nav li {
+	font-size: 14px;
+	line-height: 40px;
+	height: 40px;
+    display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+    padding: 12px;
+    transition: .3s background-color;
+}
+
+nav li a:hover {
+	color: #060606;
+    background-color: #F1A9A0;
+    }
+    
+a.active {
+    background-color: #fff;
+    color: #444;
+    }
+
+/* GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}  
+    
+#map {
+	align-items: center;
+	height: 300px;
+	width: 100%;
+	background-color: blue;
+}
+.section {
+	margin: 5%;
+	display: inline;
+}
+
+.section img {
+	float: left
+	padding: 1.5%;
+	}
+
+footer {
+	background-color: #DADFE1;
+	padding: 2%;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #ffffff;
+}
+	
+.footerLeft {
+	text-align: left;
+	vertical-align: text-bottom;
+}
+.footerLeft img {
+	display: inline;
+	float: left;
+	}
+.footerRight {
+	text-align: right;
+	vertical-align: text-bottom;
+	}
+.footerRight img {
+	display: inline;
+	float: right;
+	}
